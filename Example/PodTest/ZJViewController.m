@@ -7,6 +7,7 @@
 //
 
 #import "ZJViewController.h"
+#import "ZJTestView.h"
 
 @interface ZJViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[ZJTestView alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
